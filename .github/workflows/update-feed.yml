@@ -1,0 +1,65 @@
+name: Update RSS Feed
+
+on:
+  schedule:
+    # Every 15 minutes (UTC). GitHub Actions cron minimum granularity is 5 min,
+    # but scheduled jobs may be delayed during peak load; 15 min is a good
+    # balance between freshness and free-tier limits.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "generate_feed.py"
+      - "requirements.txt"
+      - ".github/workflows/update-feed.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate feed
+        run: python generate_feed.py
+
+      - name: Commit feed.xml if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet feed.xml; then
+            echo "No changes to feed.xml — skipping commit."
+          else
+            git add feed.xml
+            git commit -m "chore(feed): auto-update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Upload feed artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed-xml
+          path: feed.xml
+          retention-days: 7
