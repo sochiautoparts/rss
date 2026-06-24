@@ -6,12 +6,21 @@
 
 ## 🔗 Ссылка на фид
 
+**Основная (самая свежая, кэш 5 мин):**
+
 ```
 https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml
 ```
 
-Добавьте этот URL в любой RSS-ридер (Feedly, Inoreader, NetNewsWire, FreshRSS,
-Tiny Tiny RSS и т. д.) — и готово.
+**Альтернативная через CDN jsDelivr (правильный `Content-Type: application/xml`, кэш до 12 ч):**
+
+```
+https://cdn.jsdelivr.net/gh/sochiautoparts/rss@main/feed.xml
+```
+
+Добавьте любой из этих URL в RSS-ридер (Feedly, Inoreader, NetNewsWire, FreshRSS,
+Tiny Tiny RSS и т. д.) — и готово. Для максимальной свежести (обновление каждые
+15 мин) рекомендуется raw-ссылка.
 
 ## Как это работает
 
