@@ -12,7 +12,11 @@ name: Update RSS Feed (self-perpetuating)
 # next run. This creates a self-sustaining chain that fires reliably every
 # ~30 minutes, independent of GitHub's cron scheduler.
 #
-#   run N ──> generate feed ──> commit ──> purge CDN ──> sleep 1800s ──> trigger run N+1 ──> ...
+#   run N ──> generate feed ──> commit ──> sleep 1800s ──> trigger run N+1 ──> ...
+#
+# Feed freshness: served via raw.githubusercontent.com (cache 5 min).
+# jsDelivr is NOT used — its multi-tier distributed cache returns stale content
+# even after successful purge (verified empirically).
 #
 # Safety nets:
 #   - `schedule` every hour: if the chain breaks (run fails to self-trigger),
@@ -97,17 +101,6 @@ jobs:
             git commit -m "chore(feed): auto-update $(date -u '+%Y-%m-%d %H:%M UTC') [${{ github.event_name }}]"
             git push
           fi
-
-      - name: Purge jsDelivr CDN cache (so feed.xml is fresh immediately)
-        if: always()
-        run: |
-          # jsDelivr caches up to 12h; without purge the CDN serves stale feed.
-          # This GET call invalidates CF + Fastly caches for our file.
-          echo "Purging jsDelivr CDN cache for feed.xml..."
-          curl -sS -A "Mozilla/5.0" \
-            "https://purge.jsdelivr.net/gh/sochiautoparts/rss@main/feed.xml" \
-            -o /tmp/purge.json -w "HTTP %{http_code}\n"
-          python3 -c "import json; d=json.load(open('/tmp/purge.json')); print('  purge status:', d.get('status'), '| providers:', list(d.get('paths',{}).get('/gh/sochiautoparts/rss@main/feed.xml',{}).get('providers',{}).keys()))" || true
 
       - name: Sleep 30 minutes, then trigger the next run (self-perpetuation)
         if: always()

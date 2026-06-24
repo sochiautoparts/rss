@@ -6,21 +6,26 @@
 
 ## 🔗 Ссылка на фид
 
-**Основная (самая свежая, кэш 5 мин):**
+**✅ ОСНОВНАЯ — используйте эту (кэш всего 5 мин, всегда свежая):**
 
 ```
 https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml
 ```
 
-**Альтернативная через CDN jsDelivr (правильный `Content-Type: application/xml`, кэш до 12 ч):**
+> ⚠️ **НЕ используйте jsDelivr** (`cdn.jsdelivr.net/gh/...`) для этого фида.
+> jsDelivr кэширует до 12 часов и имеет распределённый многоуровневый кэш:
+> даже после успешного purge (`status: finished`, providers CF+FY инвалидированы)
+> jsDelivr продолжает отдавать старую версию с других нод. Проверено:
+> фид обновлён в репо в 17:28, а jsDelivr в тот же момент отдавал версию 15:57
+> (отставание 1.5 часа). Raw GitHub отдаёт актуальную версию с задержкой ≤5 мин.
 
-```
-https://cdn.jsdelivr.net/gh/sochiautoparts/rss@main/feed.xml
-```
+`Content-Type: text/plain` у raw-ссылки НЕ проблема — все современные RSS-ридеры
+(Feedly, Inoreader, FreshRSS, Tiny Tiny RSS, NetNewsWire) парсят по содержимому,
+а не по заголовку. `x-content-type-options: nosniff` предотвращает интерпретацию
+как HTML.
 
-Добавьте любой из этих URL в RSS-ридер (Feedly, Inoreader, NetNewsWire, FreshRSS,
-Tiny Tiny RSS и т. д.) — и готово. Для максимальной свежести (обновление каждые
-15 мин) рекомендуется raw-ссылка.
+Обновление — **каждые 30 минут** через самоперезапускающийся workflow
+(см. `.github/workflows/update-feed.yml`).
 
 ## Как это работает
 
