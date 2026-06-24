@@ -1,0 +1,7 @@
+{
+  "last_run_utc": "2026-06-24T13:40:04+00:00",
+  "trigger": "push",
+  "run_id": "28102746772",
+  "run_number": "3",
+  "schedule": "13,43 * * * * (every 30 min, off-peak)"
+}
