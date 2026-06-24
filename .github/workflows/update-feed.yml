@@ -2,10 +2,17 @@ name: Update RSS Feed
 
 on:
   schedule:
-    # Every 15 minutes (UTC). GitHub Actions cron minimum granularity is 5 min,
-    # but scheduled jobs may be delayed during peak load; 15 min is a good
-    # balance between freshness and free-tier limits.
-    - cron: "*/15 * * * *"
+    # Every 30 minutes, STAGGERED onto off-peak minutes :13 and :43.
+    #
+    # IMPORTANT: GitHub Actions explicitly warns that scheduled workflows fired
+    # at the top of the hour (:00 / :30) are heavily delayed or SKIPPED ENTIRELY
+    # on the free tier, because millions of repos run cron jobs at exactly those
+    # minutes. Using "*/30 * * * *" fires at :00 and :30 — the worst possible
+    # slots. "13,43 * * * *" still runs every 30 minutes but dodges the peak
+    # load window, so runs actually happen instead of being starved.
+    #
+    # Ref: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+    - cron: "13,43 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -45,15 +52,32 @@ jobs:
       - name: Generate feed
         run: python generate_feed.py
 
-      - name: Commit feed.xml if changed
+      - name: Write heartbeat marker (proves the cron actually fired)
+        run: |
+          python - <<'PY'
+          import json, datetime
+          data = {
+              "last_run_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+              "trigger": "${{ github.event_name }}",
+              "run_id": "${{ github.run_id }}",
+              "run_number": "${{ github.run_number }}",
+              "schedule": "13,43 * * * * (every 30 min, off-peak)",
+          }
+          with open("last-run.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+          print("heartbeat:", data)
+          PY
+
+      - name: Commit feed.xml + heartbeat
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet feed.xml; then
-            echo "No changes to feed.xml — skipping commit."
+          git add feed.xml last-run.json
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
           else
-            git add feed.xml
-            git commit -m "chore(feed): auto-update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git commit -m "chore(feed): auto-update $(date -u '+%Y-%m-%d %H:%M UTC') [${{ github.event_name }}]"
             git push
           fi
 
