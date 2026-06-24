@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-06-24T13:40:04+00:00",
-  "trigger": "push",
-  "run_id": "28102746772",
-  "run_number": "3",
+  "last_run_utc": "2026-06-24T13:49:51+00:00",
+  "trigger": "workflow_dispatch",
+  "run_id": "28103372183",
+  "run_number": "4",
   "schedule": "13,43 * * * * (every 30 min, off-peak)"
 }
