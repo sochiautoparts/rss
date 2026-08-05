@@ -1,8 +1,8 @@
 {
-  "last_run_utc": "2026-08-05T21:36:35+00:00",
-  "trigger": "schedule",
-  "run_id": "31048163446",
-  "run_number": "2418",
+  "last_run_utc": "2026-08-05T22:07:00+00:00",
+  "trigger": "workflow_dispatch",
+  "run_id": "31051460193",
+  "run_number": "2420",
   "loop_mode": "self-perpetuating, ~30 min cycle",
   "next_run_expected_in": "30 minutes (sleep 1800 + self-trigger)"
 }
