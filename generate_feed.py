@@ -166,21 +166,31 @@ def _extract_text(message_el: BeautifulSoup) -> tuple[str, str]:
 
 
 def _extract_media(message_el: BeautifulSoup) -> list[str]:
-    """Collect media URLs (full-size photo links, video poster fallbacks)."""
+    """Collect media URLs (photos, video poster fallbacks)."""
     urls: list[str] = []
 
-    # Photos: <a class="tgme_widget_message_photo" href="FULL_URL">
+    # Current t.me markup: photos are wrapped in
+    #   <a class="tgme_widget_message_photo_wrap" href="POST_URL" ...>
+    # where href points to the POST (NOT the image!) and the full-size photo
+    # URL lives in a `background-image:url(...)` style — either directly on
+    # the wrap element itself or on a nested <div>/<i>.
+    for wrap in message_el.select(
+        "a.tgme_widget_message_photo_wrap, i.tgme_widget_message_photo_wrap"
+    ):
+        style_hosts = [wrap, wrap.select_one('div[style*="background-image"]')]
+        for style_host in style_hosts:
+            if style_host is None:
+                continue
+            m = _BG_URL_RE.search(style_host.get("style", "") or "")
+            if m and m.group(1) not in urls:
+                urls.append(m.group(1))
+
+    # Legacy markup fallback (old t.me): <a class="tgme_widget_message_photo"
+    # href="FULL_SIZE_IMAGE_URL"> — href was the image itself back then.
     for a in message_el.select("a.tgme_widget_message_photo"):
         href = a.get("href")
         if href and href not in urls:
             urls.append(href)
-
-    # Photo wraps carry a thumbnail as background-image — used as fallback.
-    for wrap in message_el.select("a.tgme_widget_message_photo_wrap, i.tgme_widget_message_photo_wrap"):
-        style = wrap.get("style", "")
-        m = _BG_URL_RE.search(style)
-        if m and m.group(1) not in urls:
-            urls.append(m.group(1))
 
     # Video / round video posters.
     for v in message_el.select(
@@ -331,6 +341,10 @@ def generate_rss(posts: Iterable[Post], build_time: datetime) -> str:
     items_xml: list[str] = []
     for post in posts:
         content_html = _build_item_html(post)
+        # CDATA hardening: a literal "]]>" inside the HTML would terminate the
+        # CDATA section early (XML injection / broken feed). Split it across two
+        # adjacent CDATA sections — parsers rejoin them into the original text.
+        content_html = content_html.replace("]]>", "]]]]><![CDATA[>")
         desc = post.text_plain if post.text_plain else ("Фото/видео пост" if post.media_urls else "Пост")
         if len(desc) > 300:
             desc = desc[:297].rstrip() + "…"
@@ -392,6 +406,7 @@ def generate_rss(posts: Iterable[Post], build_time: datetime) -> str:
 def main() -> int:
     fetcher = Fetcher()
     all_posts: list[Post] = []
+    channel_counts: dict[str, int] = {}
 
     for channel in CHANNELS:
         try:
@@ -399,6 +414,7 @@ def main() -> int:
         except Exception as exc:  # never let one channel kill the whole feed
             print(f"[error] channel {channel} failed: {exc}", file=sys.stderr)
             posts = []
+        channel_counts[channel] = len(posts)
         print(f"[{channel}] collected {len(posts)} posts")
         all_posts.extend(posts)
 
@@ -411,6 +427,22 @@ def main() -> int:
         key=lambda p: (p.published, p.message_id),
         reverse=True,
     )[:MAX_FEED_ITEMS]
+
+    # ── Safety: never wipe a working feed ───────────────────────────────────
+    # If NO channel returned any posts (network error, t.me block, markup
+    # change), overwriting feed.xml would destroy the last good feed served
+    # to readers. Keep the existing file and exit non-zero so CI makes the
+    # failure visible. The self-perpetuation step still runs (if: always()),
+    # so a transient outage heals itself on the next cycle.
+    successful_channels = [ch for ch, n in channel_counts.items() if n > 0]
+    if not combined or not successful_channels:
+        print(
+            "ERROR: no posts fetched from any channel "
+            f"(per-channel counts: {channel_counts}) — "
+            f"keeping existing {OUTPUT_FILE}",
+            file=sys.stderr,
+        )
+        return 1
 
     build_time = datetime.now(timezone.utc)
     rss = generate_rss(combined, build_time)

@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml
 ## Как это работает
 
 ```
-  GitHub Actions (cron каждые 15 мин)
+  GitHub Actions (самоперезапуск каждые ~30 мин)
             │
             ▼
    generate_feed.py
@@ -43,7 +43,8 @@ https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml
 
 - **Без сервера.** Всё работает на GitHub Actions (бесплатно).
 - **Без GitHub Pages.** Фид отдаётся как raw-файл — проще и надёжнее.
-- **Свежесть ≈ 15 минут.** Cron-расписание `*/15 * * * *`.
+- **Свежесть ≈ 30 минут.** Самоперезапускающийся workflow (генерация → commit →
+  сон 30 мин → self-dispatch), ежечасный cron — страховка от обрыва цепочки.
 - **60 постов** в фиде (по 30 из каждого канала), отсортированы от свежих к старым.
 - **Полный контент:** текст поста (HTML в `content:encoded`), медиа (`media:content`),
   прямые ссылки на оригинал в Telegram.
@@ -77,7 +78,7 @@ Workflow сработает на push и сразу пересоберёт фи�
 |---|---|---|
 | Настройка | не нужна | нужен Pages + билд |
 | Кэширование | есть (CDN) | есть |
-| `Content-Type` | `text/xml` | `application/xml` |
+| `Content-Type` | `text/plain` (+ `nosniff`) | `application/xml` |
 | Задержка после commit | ~1 мин | до 1–10 мин |
 | Лимиты | нетPublished-сборки | билд-лимиты Actions |
 
