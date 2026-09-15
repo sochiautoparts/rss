@@ -6,13 +6,26 @@
     <description>Последние посты из Telegram-каналов @sochiautoparts и @bmw_mpower_club.</description>
     <language>ru</language>
     <generator>sochiautoparts/rss (GitHub Actions)</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 15:15:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 15:46:01 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://t.me/i/userpic/320/sochiautoparts.jpg</url>
       <title>Sochi Auto Parts + BMW M Power Club — Telegram</title>
       <link>https://t.me/sochiautoparts</link>
     </image>
+    <item>
+      <title>[bmw_mpower_club] 🏎️ BMW iX3 — новый рекорд за год! Сегодня, 15 сентября 2026 года, вторник, BMW iX3 уже собрал 100 тысяч заказов в пер…</title>
+      <link>https://t.me/bmw_mpower_club/25042</link>
+      <guid isPermaLink="true">https://t.me/bmw_mpower_club/25042</guid>
+      <pubDate>Tue, 15 Sep 2026 15:25:01 +0000</pubDate>
+      <dc:creator>@bmw_mpower_club</dc:creator>
+      <category>bmw_mpower_club</category>
+      <description>🏎️ BMW iX3 — новый рекорд за год! Сегодня, 15 сентября 2026 года, вторник, BMW iX3 уже собрал 100 тысяч заказов в первый год с момента открытия продаж. Это не просто цифра, а явление на рынке электромобилей. Новый iX3 стал настоящим хитом среди европейских покупателей. Он сочетает современный диз…</description>
+      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/tfEnWdUafW_blICeaTmjSVaXA2YE6a3ASfX3xZisVpt_J7r46pIbHt-U4ioPLRMVVZlUpjhksD0nxSN0IixpxbJur1kInjN1mWqVXwByE1GVkThTcM7NbMr5obhYnLbe85atjSptilII5aVRW0RrzQdIwPA2OvJVz7iQ6wTJSLcqRx29ocpXkq-yDyS8vhNLMe9FgVoAnqW74AxnyqtILukS8mtqt8wbS5JTzOUVzvvXLy1meHLht-lkC0Mr2GqvUXRkfWPYlMytnfH0YhiDqDUlHJHayovYPBegWm2yREvhtAH-R-L6woNeghtFu68IQUJHpzMRjz9wprQbCpQMJQ.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
+<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> BMW iX3 — новый рекорд за год!</b><br/><br/>Сегодня, 15 сентября 2026 года, вторник, BMW iX3 уже собрал 100 тысяч заказов в первый год с момента открытия продаж. Это не просто цифра, а явление на рынке электромобилей.<br/><br/>Новый iX3 стал настоящим хитом среди европейских покупателей. Он сочетает современный дизайн, высокую производительность и надежную технологию электропривода. Внедренная в 2025 году, модель сразу завоевала доверие потребителей.<br/><br/>BMW iX3 оснащен мощным электромотором с отдачей до 286 л. с. и максимальной тягой <b>400 Н·м</b>. Это позволяет разгоняться до <b>100 км/ч</b> за <b>7 сек</b>унд, что для такого класса автомобиля выглядит весьма внушительно.<br/><br/>Редакция считает, что успех iX3 объясняется не только его техническими характеристиками, но и тем, как BMW смогла решить проблемы с зарядкой и инфраструктурой. Компания продолжает развивать сети быстрой зарядки, что делает использование электромобиля более удобным.<br/><br/>Вывод: BMW iX3 не просто попал в топ-продаж, но и показывает, как важно сочетать пере</div>
+<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25042">Открыть в Telegram →</a></div>]]></content:encoded>
+      <media:content url="https://cdn4.telesco.pe/file/tfEnWdUafW_blICeaTmjSVaXA2YE6a3ASfX3xZisVpt_J7r46pIbHt-U4ioPLRMVVZlUpjhksD0nxSN0IixpxbJur1kInjN1mWqVXwByE1GVkThTcM7NbMr5obhYnLbe85atjSptilII5aVRW0RrzQdIwPA2OvJVz7iQ6wTJSLcqRx29ocpXkq-yDyS8vhNLMe9FgVoAnqW74AxnyqtILukS8mtqt8wbS5JTzOUVzvvXLy1meHLht-lkC0Mr2GqvUXRkfWPYlMytnfH0YhiDqDUlHJHayovYPBegWm2yREvhtAH-R-L6woNeghtFu68IQUJHpzMRjz9wprQbCpQMJQ.jpg" medium="image" />
+    </item>
     <item>
       <title>[sochiautoparts] 🚗 Volvo вырывается вперед в гибридной гонке Шведский автопроизводитель Volvo готовит революцию в мире гибридных автом…</title>
       <link>https://t.me/sochiautoparts/114013</link>
@@ -1153,19 +1166,6 @@
       <media:content url="https://cdn4.telesco.pe/file/nGUyzPtKJctfoDbehxO9Qf1LXCu5spM3R2xbAXrX61Qt9ZxPc1uIqLRNnb5hUPb4tBo8Z9KwPnVL4jCinGlyR02NN5F1vmRqj4qqDbIw69KdqQd-5g0R6loPen-LI0E_H49KKd08gKc4UmW0e8XpkQGulcoee-mqV5184Sf6U4_IXGWIhwvgHTNcxklvP6njxwLUhfQX6ziF_ebeaYe8dGxcL3V4U0gLwdPrSK2Dmf9OsdPHqj2mv5DKGpYQqKsh_uC4EX3ddI5lArY75DI2yNNhQYCiaS2uSCb9oZOcU9rq6kg2kllhvfCh4ANlhMu6wCTJ_ChC8Zw4Z-uYhAOx8A.jpg" medium="image" />
       <media:content url="https://cdn4.telesco.pe/file/s7nNF34oDhJWkLqnyFh94kXTfpJIhcj_QK0zYSBSC-y1feQHPYjTbjXMk_sduVw_e0XqpdSg4SJ7iBGlQhzhnH2XYLuBGD0oqbkMjzl0i121qr2FBUyLtXA5P8IVg5NFXdhRDsJaISe-Iaf-Y48z-cR6zVJVGVUeMNNe5RTSbXyRdJZl0VR4AdOIGJA43u5e1cvz-8hJWTPoUji5XbUDArr3ppeDBkIbOmN2EmKRl9SqNvsuOP-59HGi1D2zLD2DJv4w3AEoiZAJ-c_rLFdRFR4iKm-OfdwVQ0nCNA3PJh7MYkLz_KjxbMgs4W0xCNTsZBESC8OEhncusHWrI-3Myg.jpg" medium="image" />
       <media:content url="https://cdn4.telesco.pe/file/unZOTok_ZtGQINZWz3ro-RjExodSivyRq-STmHlf_nooVqfvEpNsR5ljww9Qm0IHeNTZkVAbh0DgLZDvZE8QZld7zGTnIOYisPHJgOYJFeV6py7ph2uNIMbOxu-mESJze395PRhTb2_1R6Hs_M8rKHJqVGH7m41y2Uj-e2v8U3dCQHOndl_vkqj3hFpRlvK8wH-beSpHzGKDF8Re2Ep9nU-iE4OL1nterhChb9q2Yk7QgvdxFCwNXC9PKL1nnJFpGIN8YnNlmiffufUVDvXUAvOfFOFVVB9fLruhzuxKIIDibGQ4vFISz5RZC6CjM_LRFkhVPL9PPyxCcmBv4-fUUg.jpg" medium="image" />
-    </item>
-    <item>
-      <title>[bmw_mpower_club] 🏎️ 1968 BMW R60US — возвращение классики из Калифорнии Сегодня мы поговорим о редком экземпляре мотоциклетной истории…</title>
-      <link>https://t.me/bmw_mpower_club/24963</link>
-      <guid isPermaLink="true">https://t.me/bmw_mpower_club/24963</guid>
-      <pubDate>Sat, 12 Sep 2026 23:42:26 +0000</pubDate>
-      <dc:creator>@bmw_mpower_club</dc:creator>
-      <category>bmw_mpower_club</category>
-      <description>🏎️ 1968 BMW R60US — возвращение классики из Калифорнии Сегодня мы поговорим о редком экземпляре мотоциклетной истории – 1968 BMW R60US. Этот мотоцикл был зарегистрирован в Калифорнии и только потом приобретен продавцом, который его импортировал в Канаду в 2024 году. BMW R60US — это классический д…</description>
-      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/DtjnFu-NObFMi0fybhUzSFpBwRnTYaqUpEAgGQLORfXYubsd6tQO4-srkxosCMBwZYbAyxG_z0isl09IW21BXqpkHBsXzku1A5sOgpzRQPCa7JLQZcFOehLWFxPBka8PimZPpiMiHSOe4z-BwKtnKrMYPmXtef-VsHXiqbIIcPCPpaEuaQahW1BSi4wwgpZs9jUO2LiZcga0BwkF1tvrX86MG-r3mws6qzwPJWYcijS32uHy7fzIJHxu3ZaInuXUpKNc0ag232iApOpUjmNsraWbguGDK1UwYvQBQq_3Be71bNLbniIBvJQx7Yno8GJMTJnyxHPdr9HNN7T0mSB1sA.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
-<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> 1968 BMW R60US — возвращение классики из Калифорнии</b><br/><br/>Сегодня мы поговорим о редком экземпляре мотоциклетной истории – 1968 BMW R60US. Этот мотоцикл был зарегистрирован в Калифорнии и только потом приобретен продавцом, который его импортировал в Канаду в 2024 году.<br/><br/>BMW R60US — это классический двухцилиндровый атмосферный мотоцикл с объемом двигателя 594 кубических сантиметра. Мощность, выдаваемая этим двигателем, составляет около 38 л. с., что обеспечивает достаточно хорошую динамику для своего времени.<br/><br/>Машина оснащена передним ведущим колесом и четырехступенчатой коробкой передач, а также имеет закрытый вал привода и тяжелые ободные тормоза. Интерьер укомплектован черной Pagusa сиденьей для водителя и пассажира, а также ручными зеркалами на фаре.<br/><br/>Однако, несмотря на классическую компоновку, мотоцикл получил несколько модификаций: современные выхлопные трубы от производителей после рынка, передний вилковый стойка и закрытые задние амортизаторы. Это делает его более комфортным для езды по городу.</div>
-<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/24963">Открыть в Telegram →</a></div>]]></content:encoded>
-      <media:content url="https://cdn4.telesco.pe/file/DtjnFu-NObFMi0fybhUzSFpBwRnTYaqUpEAgGQLORfXYubsd6tQO4-srkxosCMBwZYbAyxG_z0isl09IW21BXqpkHBsXzku1A5sOgpzRQPCa7JLQZcFOehLWFxPBka8PimZPpiMiHSOe4z-BwKtnKrMYPmXtef-VsHXiqbIIcPCPpaEuaQahW1BSi4wwgpZs9jUO2LiZcga0BwkF1tvrX86MG-r3mws6qzwPJWYcijS32uHy7fzIJHxu3ZaInuXUpKNc0ag232iApOpUjmNsraWbguGDK1UwYvQBQq_3Be71bNLbniIBvJQx7Yno8GJMTJnyxHPdr9HNN7T0mSB1sA.jpg" medium="image" />
     </item>
   </channel>
 </rss>
