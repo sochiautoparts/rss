@@ -6,13 +6,26 @@
     <description>Последние посты из Telegram-каналов @sochiautoparts и @bmw_mpower_club.</description>
     <language>ru</language>
     <generator>sochiautoparts/rss (GitHub Actions)</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 01:24:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 01:54:59 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://t.me/i/userpic/320/sochiautoparts.jpg</url>
       <title>Sochi Auto Parts + BMW M Power Club — Telegram</title>
       <link>https://t.me/sochiautoparts</link>
     </image>
+    <item>
+      <title>[bmw_mpower_club] 🏎️ BMW X5 — Двухлетний Рекорд Шестиступенчатой Механики Сегодня, 23 сентября 2026 года, среда, мы узнаем о необычном…</title>
+      <link>https://t.me/bmw_mpower_club/25271</link>
+      <guid isPermaLink="true">https://t.me/bmw_mpower_club/25271</guid>
+      <pubDate>Wed, 23 Sep 2026 01:49:00 +0000</pubDate>
+      <dc:creator>@bmw_mpower_club</dc:creator>
+      <category>bmw_mpower_club</category>
+      <description>🏎️ BMW X5 — Двухлетний Рекорд Шестиступенчатой Механики Сегодня, 23 сентября 2026 года, среда, мы узнаем о необычном достижении модели BMW X5. За последние три года только два экземпляра этого внедорожника были оснащены шестиступенчатой механической коробкой передач (МКП). Это кажется странным, у…</description>
+      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/q0bB0MxVBWLJsaVTr-fIagbMLut8aEpUb2j00wK8LqPxPicncX83Hzg7IM91NfP6ba6vYcb3vZdUhnFiFfrBU9_tCQVyyRy9EejH85d9xnxIvey0f5bjt9dXoq6SmCQq2YiP0Pcg9mynFDVctjRgicG26_Pn_ZmVcFEif1FFUD8yFNkg1uKGgq9frB1c8tGGFHKeAP0y1L9NF5-eHiaVwSK-9NJor18Jtt3YnOtGXeY1XbliR9wKeLTGWsB6QEx2YhUncLPj9NLsLSzfBH29cX9WMaEit8pD4BOvFFQ1qfa1j0Uhn-q0Pzir3GnUIcHXWFTekrLxx09Ia8sc47R4KA.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
+<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> BMW X5 — Двухлетний Рекорд Шестиступенчатой Механики</b><br/><br/>Сегодня, 23 сентября 2026 года, среда, мы узнаем о необычном достижении модели BMW X5. За последние три года только два экземпляра этого внедорожника были оснащены шестиступенчатой механической коробкой передач (МКП). Это кажется странным, учитывая, что с 1999 года BMW X5 уже доступен на рынке. Новый G65-й поколение начнет выпускаться в октябре.<br/><br/>Экспертный разбор: Почему так мало автомобилей? Вероятно, это связано с растущим спросом на автоматические коробки передач и их удобством для водителей. Шестиступенчатая МКП требует от владельца большего внимания к управлению, что может быть неудобным в повседневной эксплуатации. Однако, для тех, кто предпочитает механическую коробку передач, это редкий шанс приобрести такой автомобиль.<br/><br/>Вывод: Редакция считает, что этот рекорд отражает тенденцию рынка в пользу автоматических коробок передач. Тем не менее, для тех, кто ценит управление и контроль над автомобилем, BMW X5 с шестиступенчатой МКП остается ун</div>
+<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25271">Открыть в Telegram →</a></div>]]></content:encoded>
+      <media:content url="https://cdn4.telesco.pe/file/q0bB0MxVBWLJsaVTr-fIagbMLut8aEpUb2j00wK8LqPxPicncX83Hzg7IM91NfP6ba6vYcb3vZdUhnFiFfrBU9_tCQVyyRy9EejH85d9xnxIvey0f5bjt9dXoq6SmCQq2YiP0Pcg9mynFDVctjRgicG26_Pn_ZmVcFEif1FFUD8yFNkg1uKGgq9frB1c8tGGFHKeAP0y1L9NF5-eHiaVwSK-9NJor18Jtt3YnOtGXeY1XbliR9wKeLTGWsB6QEx2YhUncLPj9NLsLSzfBH29cX9WMaEit8pD4BOvFFQ1qfa1j0Uhn-q0Pzir3GnUIcHXWFTekrLxx09Ia8sc47R4KA.jpg" medium="image" />
+    </item>
     <item>
       <title>[sochiautoparts] 🚗 Американская мощь в компактном корпусе Сегодня на рынке появился новый V-двухцилиндровый двигатель от американского…</title>
       <link>https://t.me/sochiautoparts/115815</link>
@@ -1085,19 +1098,6 @@
       <media:content url="https://cdn4.telesco.pe/file/dwd28Esi4-UFRyayWghltYJawVgfv7i5gr7VSqWMTll5lY5Cp_iiWsBf1N0V_iGa0vbeHxIPftX5bafzot7YUaImyFFen2q9Kw5DrYFt-1cagy9NCQxWWUkBpGxYmD00gzb3TKVda9B8nLPAQfkXgc8vV3HsFjvKG62ZzDOon0yLVYorr_AQdfMhsXMGIjoENnH9h0M9ZyZ82h_TswIHPsloc3UDY1ITXO7U5E3ain-yfNjL2bSNKxWJQNFiIb6s58tNapXAbHU6wqRs5ieJE8rxnPQBtj_xjyogqiyUSfJnGIKdbiWzwfPy5XQyDSF7sfpVNkdPSIPkVvCe__qkrw.jpg" medium="image" />
       <media:content url="https://cdn4.telesco.pe/file/PrkoVzhkUZk-EHRBxm6hBKZnH8PHpJgcLZoSMbbugxJmS0AUo6RjNMBIzEpJIEySq8od5KzjLIac8keTrgIWmlFbNNlBZ1GLQKEdh_PKmxZQMhtrvE0TyFqjQ9XRaphn8BIcTzCsMKZSCv-SEVj3l87hgisuSnZ3jJJK94hIZ3lpPRyf9TJPYg6006GvDjSM_2dxzzpfmMqIbIbkD8jBD0XJpRhjD0nyjT82l9aNWILWviCX6mqAQKdSDUwEcxzaoAkEuMO0hLZUXECVmgexNujT1CmnYrg1m0eUPelX1kCzRPFzvoit5c4EttFDB6nDnKI6ygtvWv5SaMtQEakX3Q.jpg" medium="image" />
       <media:content url="https://cdn4.telesco.pe/file/wCOvcOHUUfNuQdZDq6kVK43J1i08p4n3VjQwga87y_RUUHkHKIMXVL8G6it9_hxitlCQpY7q-zS2kUxuMmRTXyXSyWcA73G8KDyfIaKY0u5aP6m1GbYX-brJP3QwabNT9OUycWZL-qCleQcNvFnWgRhBRKO-56knBTKOQiFEJadQz7Cziz9e0zV19U3nTvQ_TQp7dvJZwkXcrgIE1l44nJoal-d5Puu5ez7smsq00E-mmfTL01LkH7mp7tLZZfO5bE9MaxvtB5wbSns3SPrNqxOL1OKzOVgIvNhYAtOuRGe6PGYIxlEPmg2Nk94Q3SQcmVABtBjRn5-GtmBk9uZZTw.jpg" medium="image" />
-    </item>
-    <item>
-      <title>[bmw_mpower_club] 🏎️ X7 G67 – новый двигатель V8 и смелый дизайн Готовы к полному обновлению? BMW объявила, что второй‑поколение flagsh…</title>
-      <link>https://t.me/bmw_mpower_club/25213</link>
-      <guid isPermaLink="true">https://t.me/bmw_mpower_club/25213</guid>
-      <pubDate>Sun, 20 Sep 2026 20:36:20 +0000</pubDate>
-      <dc:creator>@bmw_mpower_club</dc:creator>
-      <category>bmw_mpower_club</category>
-      <description>🏎️ X7 G67 – новый двигатель V8 и смелый дизайн Готовы к полному обновлению? BMW объявила, что второй‑поколение flagship‑SUV X7 (G67) появится в 2027 году и будет выверено на заводе в Спартанбурге. Мы очутились в мире, где почти всё, что видим, выведено из прототипов и инсайдерских встреч. Новое X…</description>
-      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/JAka_RAXAkg1bST4vVHWZNdzfyCc_9vHTDL2vT91YvrPLNr3P9rOK4PYdVko_t1jQzphaJNYrzGj5f5A80E-KIRQK4aE-dWx6H6NT3Lq924OtEpqDrfmyZiFFW_XkQzAvW_wu0H54PUXAAt5jwle_ob0bN0pa87uxLEFlzk01OVeaSYt7KBntgxYEqo2MUsGL92P_ra4-Kb6I4w58HCAznQi-nawuddweKQFlF2OwEVJMo7ozvBGxxWBTflrH3-UQ3oZiiwm5n0nf7MO6XdaWl2x_zwf1hvMk8zTba5BLubTiwx92T7DquEoMGwTNKLyDCb9Hwu4baXdRmf399jBVQ.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
-<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> X7 G67 – новый двигатель V8 и смелый дизайн</b><br/><br/>Готовы к полному обновлению? BMW объявила, что второй‑поколение flagship‑SUV X7 (G67) появится в 2027 году и будет выверено на заводе в Спартанбурге. Мы очутились в мире, где почти всё, что видим, выведено из прототипов и инсайдерских встреч.<br/>Новое X7 обещает значительный скачок по мощности: ожидается V8‑двигатель с пересчитанным титановым блоком, где крутящий момент поднимается до <b>590 Н·м</b>, а мощность – до 550 л. с. Это даст ускорение от 0 до <b>100 км/ч</b> за <b>4,3 сек</b> и максимальную скорость более <b>280 км/ч</b>.<br/>Для владельцев существующего X5 это изменение означает не только более агрессивный звук, но и более эффективную топливную экономичность благодаря новой турбоструктуре. Возможность надёжно обгонять на шоссе и при этом сохранять комфорт класса люкс – ключевой фактор.<br/>Наш вывод: X7 G67 станет новой эталонной точкой для тех, кто ценит мощь без компромиссов. Мы считаем, что второе поколение задаст стандарт в сегменте высокопроизводител</div>
-<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25213">Открыть в Telegram →</a></div>]]></content:encoded>
-      <media:content url="https://cdn4.telesco.pe/file/JAka_RAXAkg1bST4vVHWZNdzfyCc_9vHTDL2vT91YvrPLNr3P9rOK4PYdVko_t1jQzphaJNYrzGj5f5A80E-KIRQK4aE-dWx6H6NT3Lq924OtEpqDrfmyZiFFW_XkQzAvW_wu0H54PUXAAt5jwle_ob0bN0pa87uxLEFlzk01OVeaSYt7KBntgxYEqo2MUsGL92P_ra4-Kb6I4w58HCAznQi-nawuddweKQFlF2OwEVJMo7ozvBGxxWBTflrH3-UQ3oZiiwm5n0nf7MO6XdaWl2x_zwf1hvMk8zTba5BLubTiwx92T7DquEoMGwTNKLyDCb9Hwu4baXdRmf399jBVQ.jpg" medium="image" />
     </item>
   </channel>
 </rss>
