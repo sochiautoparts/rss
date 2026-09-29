@@ -6,13 +6,26 @@
     <description>Последние посты из Telegram-каналов @sochiautoparts и @bmw_mpower_club.</description>
     <language>ru</language>
     <generator>sochiautoparts/rss (GitHub Actions)</generator>
-    <lastBuildDate>Tue, 29 Sep 2026 22:20:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:50:57 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/sochiautoparts/rss/main/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://t.me/i/userpic/320/sochiautoparts.jpg</url>
       <title>Sochi Auto Parts + BMW M Power Club — Telegram</title>
       <link>https://t.me/sochiautoparts</link>
     </image>
+    <item>
+      <title>[bmw_mpower_club] 🏎️ BMW завершает производство дизельных 3-серий в Европе Сегодня, 30 сентября 2026 года, BMW официально объявляет о п…</title>
+      <link>https://t.me/bmw_mpower_club/25512</link>
+      <guid isPermaLink="true">https://t.me/bmw_mpower_club/25512</guid>
+      <pubDate>Tue, 29 Sep 2026 22:23:10 +0000</pubDate>
+      <dc:creator>@bmw_mpower_club</dc:creator>
+      <category>bmw_mpower_club</category>
+      <description>🏎️ BMW завершает производство дизельных 3-серий в Европе Сегодня, 30 сентября 2026 года, BMW официально объявляет о прекращении производства дизельных версий модели 3-серия на европейском рынке. Это решение стало неожиданным для многих автолюбителей и экспертов. BMW всегда была известна своей тех…</description>
+      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/iZJndZMuJzzQcZJl1N4LdD9sD0tD_3qP3LmU8hUjPY7pL3b8g76IIp6_tH7QRtKkeTL3EHrSqhPptdD6rpJQ7DZpG1bjYn_gteOXqz-wfaaXspXAH3oEM0mfpNzz45Rm10WTozmFAgFbmnOmNPMnoQ2HiG7Ikodjaq0RcN3ZSBJMwZItevH3tWwJxb0GuXgx_IOBwwaI9oNJf7K8PwUvrn_6Rsic74e3xwDbq2Q0GDuaTi9EOj5AWDzAxRWq9j6R9Qs9BhCXaqpFcNRlMO7OWxR1SA1FDYHEQ1kbRT1VtQS6OKsHe4aIW025udG5QTChGRSRdOZwhWX2NoQysV-dmw.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
+<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> BMW завершает производство дизельных 3-серий в Европе</b><br/><br/>Сегодня, 30 сентября 2026 года, BMW официально объявляет о прекращении производства дизельных версий модели 3-серия на европейском рынке. Это решение стало неожиданным для многих автолюбителей и экспертов.<br/><br/>BMW всегда была известна своей технологической инновацией и экологичностью, но в последние годы дизельные моторы стали объектом критики из-за высоких выбросов и проблем с топливом. BMW решила отказаться от этих двигателей, сосредоточившись на более современных технологиях.<br/><br/>В Европе 3-серия теперь предлагается только с бензиновыми и гибридными моторами. Например, модель M3 Competition оснащена мощным V8 двигателем B58 с 429 л. с. и <b>650 Н·м</b>, обеспечивающим разгон до <b>100 км/ч</b> за <b>3,7 сек</b>унды.<br/><br/>Эксперты считают, что это решение поможет BMW укрепить свою репутацию в области экологичности и технологического превосходства. Однако для владельцев дизельных версий модели вопрос остается открытым: как они будут продолжать пользовать</div>
+<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25512">Открыть в Telegram →</a></div>]]></content:encoded>
+      <media:content url="https://cdn4.telesco.pe/file/iZJndZMuJzzQcZJl1N4LdD9sD0tD_3qP3LmU8hUjPY7pL3b8g76IIp6_tH7QRtKkeTL3EHrSqhPptdD6rpJQ7DZpG1bjYn_gteOXqz-wfaaXspXAH3oEM0mfpNzz45Rm10WTozmFAgFbmnOmNPMnoQ2HiG7Ikodjaq0RcN3ZSBJMwZItevH3tWwJxb0GuXgx_IOBwwaI9oNJf7K8PwUvrn_6Rsic74e3xwDbq2Q0GDuaTi9EOj5AWDzAxRWq9j6R9Qs9BhCXaqpFcNRlMO7OWxR1SA1FDYHEQ1kbRT1VtQS6OKsHe4aIW025udG5QTChGRSRdOZwhWX2NoQysV-dmw.jpg" medium="image" />
+    </item>
     <item>
       <title>[sochiautoparts] 🚗 Flock — Сеть Более 300 Тысяч Устройств, И Это Не Только Камеры Сегодня стало известно, что сеть Flock насчитывает б…</title>
       <link>https://t.me/sochiautoparts/117464</link>
@@ -1121,19 +1134,6 @@
 <div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> BMW создала дизель, который обогнал M5 по крутящему моменту</b><br/><br/>В 2012 году BMW представила 5-серию с дизельным двигателем, который выдавал больше крутящего момента, чем у М5. Это было неожиданное достижение для того времени, когда в большинстве случаев V8-моторы доминировали по мощности и тяге.<br/><br/>Модель M550d xDrive оснащалась 3,0-литровым инлайн-шестиколенным дизелем с тремя турбонаддувами. Этот двигатель выдавал до <b>429 Н·м</b> крутящего момента и 350 лошадиных сил. В то время это было настоящим прорывом, доказавшим, что дизельные моторы могут конкурировать с бензиновыми по многим параметрам.<br/><br/>Экспертный разбор: BMW показала, что дизели не ограничиваются только экономичностью и экологичностью. Они также способны выдавать значительную тягу, что делает их привлекательным вариантом для тех, кто ценит мощность без лишних расходов на бензин.<br/><br/>Вывод: BMW доказала, что дизельные моторы могут быть не только экономичными и экологичными, но и мощными. Это открытие могло бы изменить рынок, если бы модель приш</div>
 <div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25421">Открыть в Telegram →</a></div>]]></content:encoded>
       <media:content url="https://cdn4.telesco.pe/file/XmnSpI5OZaTWXVRjZAade0lSM9lvCnUM4sQ41As1PHvNeAolI9ZV1GfOFtoV65Os60YXf-4JnVUK-08PZ7AEmZEFMHMI7fEUwJIECm0DTCAhzTYklL3ZMPE51eVXDx0lTu4hHs1ykHc212KlyY62tVCdAoXub7XcATe6WleFdSlU1OWILZMIA-FiYWzBFt9J-_esKycjCuLQxX010SqsHy00pK5VIdSD3tWjbuJ4ciSeogNNCUYrt05vxfp6_2PGZ54uWN6SQ6Y6x-9xcqbLs3hMIfUCna-SlRRpunrYKZ2dDvfvWVrpPWUxfJEZZJ3_97hsSpHYEDr2MwLutYfGVQ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>[bmw_mpower_club] 🏎️ Ночная тишина и загадка W10-мотора Вечерний час, когда город засыпает, и мы подходим к странным новостям из мира B…</title>
-      <link>https://t.me/bmw_mpower_club/25420</link>
-      <guid isPermaLink="true">https://t.me/bmw_mpower_club/25420</guid>
-      <pubDate>Sun, 27 Sep 2026 00:18:10 +0000</pubDate>
-      <dc:creator>@bmw_mpower_club</dc:creator>
-      <category>bmw_mpower_club</category>
-      <description>🏎️ Ночная тишина и загадка W10-мотора Вечерний час, когда город засыпает, и мы подходим к странным новостям из мира BMW. Сегодня 27 сентября 2026 года, и на аукцион отправляется уникальная машина — E39 M5 с турбомотором W10 от Volkswagen. Это не просто редкость; это настоящий мотоциклетный монстр…</description>
-      <content:encoded><![CDATA[<img src="https://cdn4.telesco.pe/file/cdT65y8IY3x3hv08r45nhzn8ss5MmdC3dTnit3eYMcuMY7aLAqZ_Zw1ubsRRwUYvUa4G2KFQp4YSRsxa7y8RLRI3y1CJ0QV8_1yU02hX5BeRykD9hLZN8UMIlvPFde0Dy2mxs9-KWe_nF_Tgf3Gtz5ll48aLwG3OXW3UsSs4TctrpXd9QVnjD8uniMzYr_UDgU_J5bpLkxlFrN9E4PyXr6xCvwOpPTkNK2uyF-2pGNDJQGrhbjSuy83y3ayFXiaEWgFRSLS8KBO1PEhSaQGVsinJbooGhN5NPD_Wu95QnecKPuVRXlwQV7_TOiy062HRpwL9OOxLSMN8z3QJO1WXOQ.jpg" style="max-width:100%;border-radius:8px;margin:4px 0;" />
-<div class="tg-text"><b><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8F8E.png')"><b>🏎️</b></i> Ночная тишина и загадка W10-мотора</b><br/><br/>Вечерний час, когда город засыпает, и мы подходим к странным новостям из мира BMW. Сегодня 27 сентября 2026 года, и на аукцион отправляется уникальная машина — E39 M5 с турбомотором W10 от Volkswagen. Это не просто редкость; это настоящий мотоциклетный монстр, который когда-то был прототипом для BMW.<br/><br/>W10-мотор, известный своей мощностью и надежностью, впервые появился в 1998 году в Audi R8. Его мощность составляет около 520 л. с., что делает его одним из самых мощных моторов своего времени. В BMW M5 он был интегрирован как секретный проект, и теперь этот прототип отправляется на аукцион Broad Arrow в Zoute Concours Auction.<br/><br/>Эксперты считают, что это событие может изменить рынок редких автомобилей. Уникальность W10-мотора заключается не только в его мощности, но и в том, как он был интегрирован в E39 M5. Этот проект отражает стремление BMW к инновациям и сотрудничеству с другими брендами.<br/><br/>По нашему мнению, это событие подчеркивает важность сохранения редких прот</div>
-<div style="margin-top:10px;font-size:0.85em;"><a href="https://t.me/bmw_mpower_club/25420">Открыть в Telegram →</a></div>]]></content:encoded>
-      <media:content url="https://cdn4.telesco.pe/file/cdT65y8IY3x3hv08r45nhzn8ss5MmdC3dTnit3eYMcuMY7aLAqZ_Zw1ubsRRwUYvUa4G2KFQp4YSRsxa7y8RLRI3y1CJ0QV8_1yU02hX5BeRykD9hLZN8UMIlvPFde0Dy2mxs9-KWe_nF_Tgf3Gtz5ll48aLwG3OXW3UsSs4TctrpXd9QVnjD8uniMzYr_UDgU_J5bpLkxlFrN9E4PyXr6xCvwOpPTkNK2uyF-2pGNDJQGrhbjSuy83y3ayFXiaEWgFRSLS8KBO1PEhSaQGVsinJbooGhN5NPD_Wu95QnecKPuVRXlwQV7_TOiy062HRpwL9OOxLSMN8z3QJO1WXOQ.jpg" medium="image" />
     </item>
   </channel>
 </rss>
